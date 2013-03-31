@@ -769,7 +769,7 @@ public class ImportPrivateKeysPanel extends JPanel implements Viewable {
         fileChooser.addChoosableFileFilter(myWalletPlainFileChooser);
         fileChooser.addChoosableFileFilter(myWalletEncryptedFileChooser);
 
-        fileChooser.setAcceptAllFileFilterUsed(false);
+        fileChooser.setAcceptAllFileFilterUsed(true);
 
         fileChooser.setFileFilter(multiBitFileChooser);
 
